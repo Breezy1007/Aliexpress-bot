@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from scraper import scrape_aliexpress
 
-BOT_TOKEN = "7805938395:AAG1fSoESDTRwi__PxOFkAfHDmrg3oaM43I"
+BOT_TOKEN = "7805938395:AAFPZksTJDT3NWyBwKeld0G5nwEn-6IvRaI"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("أرسل /search متبوع بالكلمة (مثال: /search phone)")
